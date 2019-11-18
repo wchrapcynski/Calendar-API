@@ -1,11 +1,13 @@
 const fs = require("fs");
 const fetch = require("node-fetch");
+// Change localle to grab a different countries data
+const localle = "MX"
 
 grabData();
 
 function grabData() {
   fetch(
-    "https://holidayapi1.p.rapidapi.com/holidays?pretty=false&format=json&country=US&year=2019",
+    `https://holidayapi1.p.rapidapi.com/holidays?pretty=false&format=json&country=${localle}&year=2019`,
     {
       method: "GET",
       headers: {
@@ -16,17 +18,15 @@ function grabData() {
   )
     .then(res => res.json())
     .then(res => {
-      fs.writeFile(
-        "./amiibo_fetch.json",
-        JSON.stringify(res, null, 2),
-        function(err) {
-          if (err) {
-            return console.log(err);
-          }
-          console.log("The file was saved!");
-          console.log(res);
+      fs.writeFile(`./holidays${localle}.json`, JSON.stringify(res, null, 2), function(
+        err
+      ) {
+        if (err) {
+          return console.log(err);
         }
-      );
+        console.log("The file was saved!");
+        console.log(res);
+      });
     })
     .catch(error => {
       console.log(error);

@@ -1,0 +1,166 @@
+{
+  "status": 200,
+  "envelope": {
+    "remote_ip": "67.23.111.98, 67.23.111.98,13.112.233.15",
+    "request_url": "https://getfestivo.com/v1/holidays?country=MX&pretty=false&year=2019&format=json",
+    "signature": "6332ba03-963f-4e4c-8795-a7b8d101a70d"
+  },
+  "requests": {
+    "used": null,
+    "available": null,
+    "resets": null
+  },
+  "message": "",
+  "errors": null,
+  "holidays": {
+    "query": {
+      "country": "MX",
+      "pretty": "false",
+      "year": "2019",
+      "format": "json"
+    },
+    "holidays": [
+      {
+        "date": "2019-01-01",
+        "start": "2019-01-01T06:00:00.000Z",
+        "end": "2019-01-02T06:00:00.000Z",
+        "name": "Año Nuevo",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      },
+      {
+        "date": "2019-02-04",
+        "start": "2019-02-04T06:00:00.000Z",
+        "end": "2019-02-05T06:00:00.000Z",
+        "name": "Día de la Constitución (día libre)",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      },
+      {
+        "date": "2019-02-05",
+        "start": "2019-02-05T06:00:00.000Z",
+        "end": "2019-02-06T06:00:00.000Z",
+        "name": "Día de la Constitución",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      },
+      {
+        "date": "2019-03-18",
+        "start": "2019-03-18T06:00:00.000Z",
+        "end": "2019-03-19T06:00:00.000Z",
+        "name": "Natalicio de Benito Juárez (día libre)",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      },
+      {
+        "date": "2019-03-21",
+        "start": "2019-03-21T06:00:00.000Z",
+        "end": "2019-03-22T06:00:00.000Z",
+        "name": "Natalicio de Benito Juárez",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      },
+      {
+        "date": "2019-04-18",
+        "start": "2019-04-18T05:00:00.000Z",
+        "end": "2019-04-19T05:00:00.000Z",
+        "name": "Jueves Santo",
+        "type": "bank",
+        "public": false,
+        "country": "MX"
+      },
+      {
+        "date": "2019-04-19",
+        "start": "2019-04-19T05:00:00.000Z",
+        "end": "2019-04-20T05:00:00.000Z",
+        "name": "Viernes Santo",
+        "type": "bank",
+        "public": false,
+        "country": "MX"
+      },
+      {
+        "date": "2019-05-01",
+        "start": "2019-05-01T05:00:00.000Z",
+        "end": "2019-05-02T05:00:00.000Z",
+        "name": "Fiesta del trabajo",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      },
+      {
+        "date": "2019-05-10",
+        "start": "2019-05-10T05:00:00.000Z",
+        "end": "2019-05-11T05:00:00.000Z",
+        "name": "Día de la Madre",
+        "type": "observance",
+        "public": false,
+        "country": "MX"
+      },
+      {
+        "date": "2019-09-16",
+        "start": "2019-09-16T05:00:00.000Z",
+        "end": "2019-09-17T05:00:00.000Z",
+        "name": "Día de la Independencia",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      },
+      {
+        "date": "2019-11-02",
+        "start": "2019-11-02T06:00:00.000Z",
+        "end": "2019-11-03T06:00:00.000Z",
+        "name": "Día de los Difuntos",
+        "type": "bank",
+        "public": false,
+        "country": "MX"
+      },
+      {
+        "date": "2019-11-18",
+        "start": "2019-11-18T06:00:00.000Z",
+        "end": "2019-11-19T06:00:00.000Z",
+        "name": "Día de la Revolución (día libre)",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      },
+      {
+        "date": "2019-11-20",
+        "start": "2019-11-20T06:00:00.000Z",
+        "end": "2019-11-21T06:00:00.000Z",
+        "name": "Día de la Revolución",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      },
+      {
+        "date": "2019-12-12",
+        "start": "2019-12-12T06:00:00.000Z",
+        "end": "2019-12-13T06:00:00.000Z",
+        "name": "Día de la Virgen de Guadalupe",
+        "type": "bank",
+        "public": false,
+        "country": "MX"
+      },
+      {
+        "date": "2019-12-25",
+        "start": "2019-12-25T06:00:00.000Z",
+        "end": "2019-12-26T06:00:00.000Z",
+        "name": "Navidad",
+        "type": "public",
+        "public": true,
+        "country": "MX"
+      }
+    ]
+  },
+  "availableFilters": {
+    "languages": [
+      "es",
+      "en"
+    ]
+  }
+}
