@@ -2,6 +2,9 @@ const mongoose = require("../db/connection");
 const Schema = mongoose.Schema;
 
 const notesSchema = new Schema({
+  date: {
+    type: Date
+  },
   title: {
     type: String,
     trim: true,
