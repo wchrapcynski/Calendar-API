@@ -10,6 +10,11 @@ router.get("/birthday/id/:id", birthdayController.id);
 router.get("/birthday/date/:date", birthdayController.date);
 // Search by name
 router.get("/birthday/name/:name", birthdayController.name);
-
+// Creates birthday listing
+router.post("/birthday", birthdayController.create);
+// Edits an birthday listing
+router.put("/birthday/id/:id", birthdayController.edit);
+// Deletes an Ambirthdayiibo listing
+router.delete("/birthday/id/:id", birthdayController.delete);
 
 module.exports = router;
