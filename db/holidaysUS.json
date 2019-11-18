@@ -1,255 +1,173 @@
-{
-  "status": 200,
-  "envelope": {
-    "remote_ip": "67.23.111.98, 67.23.111.98,13.112.233.15",
-    "request_url": "https://getfestivo.com/v1/holidays?country=US&pretty=false&year=2019&format=json",
-    "signature": "66f6177d-ef4d-4511-8918-dedc5716a8e4"
+[
+  {
+    "date": "2019-01-01",
+    "start": "2019-01-01T05:00:00.000Z",
+    "end": "2019-01-02T05:00:00.000Z",
+    "name": "New Year's Day",
+    "type": "public",
+    "public": true,
+    "country": "US"
   },
-  "requests": {
-    "used": null,
-    "available": null,
-    "resets": null
+  {
+    "date": "2019-01-21",
+    "start": "2019-01-21T05:00:00.000Z",
+    "end": "2019-01-22T05:00:00.000Z",
+    "name": "Martin Luther King Jr. Day",
+    "type": "public",
+    "public": true,
+    "country": "US"
   },
-  "message": "",
-  "errors": null,
-  "holidays": {
-    "query": {
-      "country": "US",
-      "pretty": "false",
-      "year": "2019",
-      "format": "json"
-    },
-    "holidays": [
-      {
-        "date": "2019-01-01",
-        "start": "2019-01-01T05:00:00.000Z",
-        "end": "2019-01-02T05:00:00.000Z",
-        "name": "New Year's Day",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-01-21",
-        "start": "2019-01-21T05:00:00.000Z",
-        "end": "2019-01-22T05:00:00.000Z",
-        "name": "Martin Luther King Jr. Day",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-02-14",
-        "start": "2019-02-14T05:00:00.000Z",
-        "end": "2019-02-15T05:00:00.000Z",
-        "name": "Valentine's Day",
-        "type": "observance",
-        "public": false,
-        "country": "US"
-      },
-      {
-        "date": "2019-02-18",
-        "start": "2019-02-18T05:00:00.000Z",
-        "end": "2019-02-19T05:00:00.000Z",
-        "name": "Washington's Birthday",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-04-15",
-        "start": "2019-04-15T04:00:00.000Z",
-        "end": "2019-04-16T04:00:00.000Z",
-        "name": "Tax Day",
-        "type": "observance",
-        "public": false,
-        "country": "US"
-      },
-      {
-        "date": "2019-04-24",
-        "start": "2019-04-24T04:00:00.000Z",
-        "end": "2019-04-25T04:00:00.000Z",
-        "name": "Administrative Professionals Day",
-        "type": "observance",
-        "public": false,
-        "country": "US"
-      },
-      {
-        "date": "2019-05-12",
-        "start": "2019-05-12T04:00:00.000Z",
-        "end": "2019-05-13T04:00:00.000Z",
-        "name": "Mother's Day",
-        "type": "observance",
-        "public": false,
-        "country": "US"
-      },
-      {
-        "date": "2019-05-27",
-        "start": "2019-05-27T04:00:00.000Z",
-        "end": "2019-05-28T04:00:00.000Z",
-        "name": "Memorial Day",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-06-16",
-        "start": "2019-06-16T04:00:00.000Z",
-        "end": "2019-06-17T04:00:00.000Z",
-        "name": "Father's Day",
-        "type": "observance",
-        "public": false,
-        "country": "US"
-      },
-      {
-        "date": "2019-07-04",
-        "start": "2019-07-04T04:00:00.000Z",
-        "end": "2019-07-05T04:00:00.000Z",
-        "name": "Independence Day",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-09-02",
-        "start": "2019-09-02T04:00:00.000Z",
-        "end": "2019-09-03T04:00:00.000Z",
-        "name": "Labor Day",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-10-14",
-        "start": "2019-10-14T04:00:00.000Z",
-        "end": "2019-10-15T04:00:00.000Z",
-        "name": "Columbus Day",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-10-31",
-        "start": "2019-10-31T22:00:00.000Z",
-        "end": "2019-11-01T04:00:00.000Z",
-        "name": "Halloween",
-        "type": "observance",
-        "public": false,
-        "country": "US"
-      },
-      {
-        "date": "2019-11-11",
-        "start": "2019-11-11T05:00:00.000Z",
-        "end": "2019-11-12T05:00:00.000Z",
-        "name": "Veterans Day",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-11-28",
-        "start": "2019-11-28T05:00:00.000Z",
-        "end": "2019-11-29T05:00:00.000Z",
-        "name": "Thanksgiving Day",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-11-29",
-        "start": "2019-11-29T05:00:00.000Z",
-        "end": "2019-11-30T05:00:00.000Z",
-        "name": "Day after Thanksgiving Day",
-        "type": "observance",
-        "public": false,
-        "country": "US"
-      },
-      {
-        "date": "2019-12-24",
-        "start": "2019-12-24T05:00:00.000Z",
-        "end": "2019-12-25T05:00:00.000Z",
-        "name": "Christmas Eve",
-        "type": "optional",
-        "public": false,
-        "country": "US"
-      },
-      {
-        "date": "2019-12-25",
-        "start": "2019-12-25T05:00:00.000Z",
-        "end": "2019-12-26T05:00:00.000Z",
-        "name": "Christmas Day",
-        "type": "public",
-        "public": true,
-        "country": "US"
-      },
-      {
-        "date": "2019-12-31",
-        "start": "2019-12-31T05:00:00.000Z",
-        "end": "2020-01-01T05:00:00.000Z",
-        "name": "New Year's Eve",
-        "type": "observance",
-        "public": false,
-        "country": "US"
-      }
-    ]
+  {
+    "date": "2019-02-14",
+    "start": "2019-02-14T05:00:00.000Z",
+    "end": "2019-02-15T05:00:00.000Z",
+    "name": "Valentine's Day",
+    "type": "observance",
+    "public": false,
+    "country": "US"
   },
-  "availableFilters": {
-    "languages": [
-      "en-us",
-      "en"
-    ],
-    "states": {
-      "AL": "Alabama",
-      "AK": "Alaska",
-      "AZ": "Arizona",
-      "AR": "Arkansas",
-      "CA": "California",
-      "CO": "Colorado",
-      "CT": "Connecticut",
-      "DE": "Delaware",
-      "DC": "District of Columbia",
-      "FL": "Florida",
-      "GA": "Georgia",
-      "HI": "Hawaii",
-      "ID": "Idaho",
-      "IL": "Illinois",
-      "IN": "Indiana",
-      "IA": "Iowa",
-      "KS": "Kansas",
-      "KY": "Kentucky",
-      "LA": "Louisiana",
-      "ME": "Maine",
-      "MD": "Maryland",
-      "MA": "Massachusetts",
-      "MI": "Michigan",
-      "MN": "Minnesota",
-      "MS": "Mississippi",
-      "MO": "Missouri",
-      "MT": "Montana",
-      "NE": "Nebraska",
-      "NV": "Nevada",
-      "NH": "New Hampshire",
-      "NJ": "New Jersey",
-      "NM": "New Mexico",
-      "NY": "New York",
-      "NC": "North Carolina",
-      "ND": "North Dakota",
-      "OH": "Ohio",
-      "OK": "Oklahoma",
-      "OR": "Oregon",
-      "PA": "Pennsylvania",
-      "RI": "Rhode Island",
-      "SC": "South Carolina",
-      "SD": "South Dakota",
-      "TN": "Tennessee",
-      "TX": "Texas",
-      "UT": "Utah",
-      "VT": "Vermont",
-      "VA": "Virginia",
-      "WA": "Washington",
-      "WV": "West Virginia",
-      "WI": "Wisconsin",
-      "WY": "Wyoming"
-    }
+  {
+    "date": "2019-02-18",
+    "start": "2019-02-18T05:00:00.000Z",
+    "end": "2019-02-19T05:00:00.000Z",
+    "name": "Washington's Birthday",
+    "type": "public",
+    "public": true,
+    "country": "US"
+  },
+  {
+    "date": "2019-04-15",
+    "start": "2019-04-15T04:00:00.000Z",
+    "end": "2019-04-16T04:00:00.000Z",
+    "name": "Tax Day",
+    "type": "observance",
+    "public": false,
+    "country": "US"
+  },
+  {
+    "date": "2019-04-24",
+    "start": "2019-04-24T04:00:00.000Z",
+    "end": "2019-04-25T04:00:00.000Z",
+    "name": "Administrative Professionals Day",
+    "type": "observance",
+    "public": false,
+    "country": "US"
+  },
+  {
+    "date": "2019-05-12",
+    "start": "2019-05-12T04:00:00.000Z",
+    "end": "2019-05-13T04:00:00.000Z",
+    "name": "Mother's Day",
+    "type": "observance",
+    "public": false,
+    "country": "US"
+  },
+  {
+    "date": "2019-05-27",
+    "start": "2019-05-27T04:00:00.000Z",
+    "end": "2019-05-28T04:00:00.000Z",
+    "name": "Memorial Day",
+    "type": "public",
+    "public": true,
+    "country": "US"
+  },
+  {
+    "date": "2019-06-16",
+    "start": "2019-06-16T04:00:00.000Z",
+    "end": "2019-06-17T04:00:00.000Z",
+    "name": "Father's Day",
+    "type": "observance",
+    "public": false,
+    "country": "US"
+  },
+  {
+    "date": "2019-07-04",
+    "start": "2019-07-04T04:00:00.000Z",
+    "end": "2019-07-05T04:00:00.000Z",
+    "name": "Independence Day",
+    "type": "public",
+    "public": true,
+    "country": "US"
+  },
+  {
+    "date": "2019-09-02",
+    "start": "2019-09-02T04:00:00.000Z",
+    "end": "2019-09-03T04:00:00.000Z",
+    "name": "Labor Day",
+    "type": "public",
+    "public": true,
+    "country": "US"
+  },
+  {
+    "date": "2019-10-14",
+    "start": "2019-10-14T04:00:00.000Z",
+    "end": "2019-10-15T04:00:00.000Z",
+    "name": "Columbus Day",
+    "type": "public",
+    "public": true,
+    "country": "US"
+  },
+  {
+    "date": "2019-10-31",
+    "start": "2019-10-31T22:00:00.000Z",
+    "end": "2019-11-01T04:00:00.000Z",
+    "name": "Halloween",
+    "type": "observance",
+    "public": false,
+    "country": "US"
+  },
+  {
+    "date": "2019-11-11",
+    "start": "2019-11-11T05:00:00.000Z",
+    "end": "2019-11-12T05:00:00.000Z",
+    "name": "Veterans Day",
+    "type": "public",
+    "public": true,
+    "country": "US"
+  },
+  {
+    "date": "2019-11-28",
+    "start": "2019-11-28T05:00:00.000Z",
+    "end": "2019-11-29T05:00:00.000Z",
+    "name": "Thanksgiving Day",
+    "type": "public",
+    "public": true,
+    "country": "US"
+  },
+  {
+    "date": "2019-11-29",
+    "start": "2019-11-29T05:00:00.000Z",
+    "end": "2019-11-30T05:00:00.000Z",
+    "name": "Day after Thanksgiving Day",
+    "type": "observance",
+    "public": false,
+    "country": "US"
+  },
+  {
+    "date": "2019-12-24",
+    "start": "2019-12-24T05:00:00.000Z",
+    "end": "2019-12-25T05:00:00.000Z",
+    "name": "Christmas Eve",
+    "type": "optional",
+    "public": false,
+    "country": "US"
+  },
+  {
+    "date": "2019-12-25",
+    "start": "2019-12-25T05:00:00.000Z",
+    "end": "2019-12-26T05:00:00.000Z",
+    "name": "Christmas Day",
+    "type": "public",
+    "public": true,
+    "country": "US"
+  },
+  {
+    "date": "2019-12-31",
+    "start": "2019-12-31T05:00:00.000Z",
+    "end": "2020-01-01T05:00:00.000Z",
+    "name": "New Year's Eve",
+    "type": "observance",
+    "public": false,
+    "country": "US"
   }
-}
+]
