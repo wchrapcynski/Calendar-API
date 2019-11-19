@@ -8,6 +8,8 @@ router.get("/note", notesController.index);
 router.get("/note/id/:id", notesController.id);
 // Search by date The date format is YYYY-MM-DD.
 router.get("/note/date/:date", notesController.date);
+// Search by a range of dates. The date format is YYYY-MM-DD.
+router.get("/note/date/:dateStart/:dateEnd", notesController.dateRange);
 // Search by title
 router.get("/note/title/:title", notesController.title);
 // Creates note

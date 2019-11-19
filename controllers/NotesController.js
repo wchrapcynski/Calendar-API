@@ -18,6 +18,17 @@ module.exports = {
       res.json(notes);
     });
   },
+  dateRange: (req, res) => {
+    console.log(req.params.date);
+    Notes.find({
+      date: {
+        $gte: req.params.dateStart + "T00:00:00.000Z",
+        $lte: req.params.dateEnd + "T00:00:00.000Z"
+      }
+    }).then(notes => {
+      res.json(notes);
+    });
+  },
   title: (req, res) => {
     Notes.find({ title: req.params.title }).then(notes => {
       res.json(notes);
