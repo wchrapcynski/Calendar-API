@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const notesController = require("../controllers//NotesControllerr");
+const notesController = require("../controllers/NotesController");
 
 // Main resource that lists the entire holiday collection
 router.get("/note", notesController.index);

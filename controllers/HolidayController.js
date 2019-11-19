@@ -13,7 +13,7 @@ module.exports = {
   },
   date: (req, res) => {
     Holidays.find({
-      date: req.params.release + "T00:00:00.000Z"
+      date: req.params.date + "T00:00:00.000Z"
     }).then(holiday => {
       res.json(holiday);
     });
@@ -35,8 +35,25 @@ module.exports = {
     });
   },
   country: (req, res) => {
-    Holidays.find({ name: req.params.country }).then(holiday => {
+    Holidays.find({ country: req.params.country }).then(holiday => {
       res.json(holiday);
+    });
+  },
+  create: (req, res) => {
+    Holidays.create(req.body).then(holiday => {
+      res.json(holiday);
+    });
+  },
+  edit: (req, res) => {
+    Holidays.findOneAndUpdate({ _id: req.params.id }, req.body, {
+      new: true
+    }).then(holiday => {
+      res.json(holiday);
+    });
+  },
+  delete: (req, res) => {
+    Holidays.findOneAndDelete({ _id: req.params.id }).then(holiday => {
+      res.json(amiholidayibo);
     });
   }
 };
