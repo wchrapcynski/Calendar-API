@@ -1,7 +1,7 @@
 const mongoose = require("../db/connection");
 const Schema = mongoose.Schema;
 
-const calendarSchema = new Schema({
+const holidaySchema = new Schema({
     date: {
         type: Date
     },
@@ -21,5 +21,5 @@ const calendarSchema = new Schema({
     }
 })
 
-const Amiibo = mongoose.model("amiibo", calendarSchema);
-module.exports = Amiibo;
+const Holidays = mongoose.model("holidays", holidaySchema);
+module.exports = Holidays;

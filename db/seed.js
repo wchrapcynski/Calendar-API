@@ -6,7 +6,7 @@ const dataHolidayCA = require("./holidaysCA.json");
 const dataHolidayMX = require("./holidaysMX.json");
 
 const Birthdays = require("../models/Birthdays");
-const dataBirthdays = require("./birthdayAvengers.json");
+const dataBirthdays = require("./birthdaysAvengers.json");
 
 const Notes = require("../models/Notes");
 const dataNotes = require("./notes.json");

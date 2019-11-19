@@ -14,9 +14,9 @@ const notesSchema = new Schema({
     type: String,
     trim: true,
     minlength: 1,
-    minlength: 256
+    maxlength: 256
   }
 });
 
-const Amiibo = mongoose.model("amiibo", notesSchema);
-module.exports = Amiibo;
+const Notes = mongoose.model("notes", notesSchema);
+module.exports = Notes;

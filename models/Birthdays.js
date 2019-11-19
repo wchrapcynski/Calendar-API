@@ -12,5 +12,5 @@ const birthdayrSchema = new Schema({
   }
 });
 
-const Amiibo = mongoose.model("amiibo", birthdayrSchema);
-module.exports = Amiibo;
+const Birthdays = mongoose.model("birthdays", birthdayrSchema);
+module.exports = Birthdays;
