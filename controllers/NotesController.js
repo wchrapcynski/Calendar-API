@@ -1,4 +1,4 @@
-const Notes = require("../models/Holidays");
+const Notes = require("../models/Notes");
 
 module.exports = {
   index: (req, res) => {
@@ -13,13 +13,13 @@ module.exports = {
   },
   date: (req, res) => {
     Notes.find({
-      date: req.params.release + "T00:00:00.000Z"
+      date: req.params.date + "T00:00:00.000Z"
     }).then(notes => {
       res.json(notes);
     });
   },
   title: (req, res) => {
-    Notes.find({ title: req.params.name }).then(notes => {
+    Notes.find({ title: req.params.title }).then(notes => {
       res.json(notes);
     });
   },
