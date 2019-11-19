@@ -5,6 +5,9 @@ const birthdayrSchema = new Schema({
   date: {
     type: Date
   },
+  dateShort: {
+    type: String
+  },
   name: {
     type: String,
     trim: true,

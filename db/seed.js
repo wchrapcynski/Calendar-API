@@ -73,6 +73,7 @@ HolidaysMX.remove({}).then(() => {
 const birthdayData = dataBirthdays.map(item => {
   const birthday = {};
   birthday.date = item.date;
+  birthday.dateShort = item.date.substring(5);
   birthday.name = item.name;
   return birthday;
 });
