@@ -18,6 +18,17 @@ module.exports = {
       res.json(holiday);
     });
   },
+  dateRange: (req, res) => {
+    console.log(req.params.date);
+    Holidays.find({
+      date: {
+        $gte: req.params.dateStart + "T00:00:00.000Z",
+        $lte: req.params.dateEnd + "T00:00:00.000Z"
+      }
+    }).then(holiday => {
+      res.json(holiday);
+    });
+  },
   name: (req, res) => {
     Holidays.find({ name: req.params.name }).then(holiday => {
       res.json(holiday);
