@@ -1,4 +1,4 @@
-const Birthdays = require("../models/Holidays");
+const Birthdays = require("../models/Birthdays");
 
 module.exports = {
   index: (req, res) => {
@@ -13,7 +13,7 @@ module.exports = {
   },
   date: (req, res) => {
     Birthdays.find({
-      date: req.params.release + "T00:00:00.000Z"
+      date: req.params.date + "T00:00:00.000Z"
     }).then(birthday => {
       res.json(birthday);
     });
