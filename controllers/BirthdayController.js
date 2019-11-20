@@ -19,11 +19,11 @@ module.exports = {
     });
   },
   dateRange: (req, res) => {
-    console.log(req.params.date);
+    console.log(req.params.dateShort);
     Birthdays.find({
-      date: {
-        $gte: req.params.dateStart + "T00:00:00.000Z",
-        $lte: req.params.dateEnd + "T00:00:00.000Z"
+      dateShort: {
+        $gte: req.params.dateStart,
+        $lte: req.params.dateEnd
       }
     }).then(birthday => {
       res.json(birthday);
