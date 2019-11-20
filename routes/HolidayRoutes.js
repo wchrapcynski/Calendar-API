@@ -10,6 +10,8 @@ router.get("/holiday/id/:id", holidayController.id);
 router.get("/holiday/date/:date", holidayController.date);
 // Search by a range of dates. The date format is YYYY-MM-DD.
 router.get("/holiday/date/:dateStart/:dateEnd", holidayController.dateRange);
+// Search by a range of dates. The date format is MM-DD.
+router.get("/holiday/date-short/:dateStart/:dateEnd", holidayController.dateShort);
 // Search by name
 router.get("/holiday/name/:name", holidayController.name);
 // Search by country

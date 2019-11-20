@@ -15,6 +15,7 @@ const dataNotes = require("./notes.json");
 const holidaysUSData = dataHolidayUS.map(item => {
   const holidaysUS = {};
   holidaysUS.date = item.date;
+  holidaysUS.dateShort = item.date.substring(5);
   holidaysUS.name = item.name;
   holidaysUS.type = item.type;
   holidaysUS.country = item.country;
@@ -24,6 +25,7 @@ const holidaysUSData = dataHolidayUS.map(item => {
 const holidaysCAData = dataHolidayCA.map(item => {
   const holidaysCA = {};
   holidaysCA.date = item.date;
+  holidaysCA.dateShort = item.date.substring(5);
   holidaysCA.name = item.name;
   holidaysCA.type = item.type;
   holidaysCA.country = item.country;
@@ -33,6 +35,7 @@ const holidaysCAData = dataHolidayCA.map(item => {
 const holidaysMXData = dataHolidayMX.map(item => {
   const holidaysMX = {};
   holidaysMX.date = item.date;
+  holidaysMX.dateShort = item.date.substring(5);
   holidaysMX.name = item.name;
   holidaysMX.type = item.type;
   holidaysMX.country = item.country;
@@ -73,7 +76,7 @@ HolidaysMX.remove({}).then(() => {
 const birthdayData = dataBirthdays.map(item => {
   const birthday = {};
   birthday.date = item.date;
-  birthday.dateShort = item.date.substring  (5);
+  birthday.dateShort = item.date.substring(5);
   birthday.name = item.name;
   return birthday;
 });
