@@ -2,6 +2,25 @@
 
 Calendar-API
 
+This is a RESTful API for an interactive calendar. There are three models: Holidays, Birthdays, and Notes and all three have CRUD functionality. 
+
+## Requirements
+
+- [Node JS](https://nodejs.org/en/)
+- [Mongo DB](https://www.mongodb.com/download-center)
+
+## Installation
+
+First install the requirements. Then download this repo to your hard drive. You'll then need to use `npm install` in the root of the amiibo_api folder to install dependencies. It should install axios, body-parse, express, mongoose, and node-fetch. 
+
+There currently is a small set of data in three json files to use as seed data. You can run `node seed.js` from the `/db` folder to send the data into a mongo database. There will be a collection for all three models.
+
+![data sample](images/dataexamples.png)
+
+## Usage
+
+The following routes are currently set to be used. You can test GET by running `nodemon` in the root folder and go to `localhost:3000` in your browser. You can also use [Postman](https://www.getpostman.com/) to test everything out. Replace DOMAIN with either localhost:3000 or whatever domain you have the API installed on.
+
 ## Routes
 
 ### Holidays
@@ -44,3 +63,7 @@ Calendar-API
 | <sub>"/note"</sub>                          | <sub>http://DOMAIN/note</sub>                             | POST   | <sub>Creates note listing.</sub>                                            |
 | <sub>"/note/id/:id" </sub>                  | <sub>http://DOMAIN/id/<"id"></sub>                        | PUT    | <sub>Edits an note listing</sub>                                            |
 | <sub>"/note/id/:id"</sub>                   | <sub>http://DOMAIN/id/<"id"></sub>                        | DELETE | <sub>Deletes an note listing</sub>                                          |
+
+## Author
+
+William Chrapcynski: all code
