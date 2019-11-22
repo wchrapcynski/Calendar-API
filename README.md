@@ -11,7 +11,7 @@ This is a RESTful API for an interactive calendar. There are three models: Holid
 
 ## Installation
 
-First install the requirements. Then download this repo to your hard drive. You'll then need to use `npm install` in the root of the amiibo_api folder to install dependencies. It should install axios, body-parse, express, mongoose, and node-fetch. 
+First install the requirements. Then download this repo to your hard drive. You'll then need to use `npm install` in the root of the amiibo_api folder to install dependencies. It should install cors, body-parse, express, mongoose, and node-fetch. 
 
 There currently is a small set of data in three json files to use as seed data. You can run `node seed.js` from the `/db` folder to send the data into a mongo database. There will be a collection for all three models.
 
